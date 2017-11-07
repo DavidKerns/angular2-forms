@@ -8,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MySignupFormComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  submitForm(myForm) {
+    console.log(myForm);
   }
-
 }
